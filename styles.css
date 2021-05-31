@@ -1,9 +1,103 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    padding: 20px;
-   
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contact a,
+.mail a {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.top-section {
+  height: 250px;
+  justify-content: space-around;
+  padding: 1rem;
+  display: flex;
+}
+.top-section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin: 30px;
+}
+
+.image {
+  background-color: rgb(160, 205, 211);
+  width: 35%;
+}
+
+.personal-profile {
+  background-color: rgb(160, 205, 211);
+  width: 55%;
+}
+
+.personal-profile h3,
+.personal-profile p {
+  text-align: center;
+}
+
+.section-2 {
+  height: 477px;
+  padding: 2rem;
+}
+
+.experience {
+  height: 465px;
+  padding: 1rem;
+  background-color: rgb(160, 205, 211);
+}
+
+.experience h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 1rem;
+}
+
+li {
+  margin: 1rem;
+}
+
+.top-section,
+.section-2 {
+  flex-wrap: wrap;
+}
+
+.section-3,
+.section-4 {
+  justify-content: space-around;
+  padding: 1rem;
+  display: flex;
+}
+
+.education,
+.personal-skills {
+  height: 350px;
+  width: 45%;
+  text-align: center;
+  background-color: rgb(160, 205, 211);
+}
+
+.contact,
+.hobbies,
+.languages {
+  width: 30%;
+  background-color: rgb(160, 205, 211);
+}
+
+.section-5 {
+  display: flex;
+  padding: 2rem;
 }
