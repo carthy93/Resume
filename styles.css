@@ -101,17 +101,6 @@ li {
   flex-wrap: wrap;
 }
 
-.image,
-.personal-profile,
-.experience,
-.education,
-.personal-skills,
-.contact-me,
-.hobbies,
-.languages {
-  flex-wrap: wrap;
-}
-
 .section-3,
 .section-4 {
   justify-content: space-around;
